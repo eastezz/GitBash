@@ -25,8 +25,8 @@ Each command is explained in its own folder with examples and best practices.
 ## Collaboration & Workflow
 
 * [Branching Guide](branching/README.md)
-* [Pull Requests Guide](pull-request/README.md)
-
+* [Pull Requests Guide](pull_request/README.md)
+* [Run From Bash/Create new Shortcuts](RunFromBash_CreateShortcuts)
 ---
 
 # Who This Repository Is For
