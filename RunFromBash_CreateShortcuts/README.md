@@ -203,6 +203,3 @@ You can:
 * Automate tasks
 * Work more efficiently in the terminal
 
----
-
-⭐ If this tutorial helped you, consider giving the repository a star!

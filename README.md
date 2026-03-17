@@ -70,6 +70,3 @@ Mastering it allows you to:
 4. Understand pull requests
 5. Collaborate with others
 
----
-
-⭐ If this repository helps you, consider giving it a star!
