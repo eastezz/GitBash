@@ -27,6 +27,7 @@ Each command is explained in its own folder with examples and best practices.
 * [Branching Guide](branching/README.md)
 * [Pull Requests Guide](pull_request/README.md)
 * [Run From Bash/Create new Shortcuts](RunFromBash_CreateShortcuts)
+* [Create & Run a .NET Web API using Bash](Create_Run_.NET_Web_API)
 ---
 
 # Who This Repository Is For
