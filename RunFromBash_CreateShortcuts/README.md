@@ -8,7 +8,6 @@ This tutorial explains how to:
 
 The tutorial is beginner-friendly and works on Windows.
 
----
 
 # 1. What is Git Bash?
 
@@ -27,7 +26,6 @@ MINGW64 ~/Projects
 $
 ```
 
----
 
 # 2. Running Windows Programs from Git Bash
 
@@ -60,7 +58,6 @@ Run the program:
 
 Quotes are required when the path contains spaces.
 
----
 
 # 3. Example: Running Visual Studio
 
@@ -76,7 +73,6 @@ You can also open a solution file:
 "/c/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/devenv.exe" MyProject.sln
 ```
 
----
 
 # 4. Creating Your Own Bash Commands (Aliases)
 
@@ -92,7 +88,6 @@ Instead of typing a long path every time, create a shortcut.
 nano ~/.bashrc
 ```
 
----
 
 ### Step 2: Add a custom command
 
@@ -108,7 +103,6 @@ Now you can run:
 vs
 ```
 
----
 
 # 5. Reload Bash Configuration
 
@@ -120,7 +114,6 @@ source ~/.bashrc
 
 Now your command works immediately.
 
----
 
 # 6. Useful Custom Commands
 
@@ -144,8 +137,6 @@ vs
 alias code='"/c/Users/USERNAME/AppData/Local/Programs/Microsoft VS Code/Code.exe"'
 ```
 
----
-
 ### Quick navigation
 
 ```bash
@@ -157,8 +148,6 @@ Usage:
 ```bash
 projects
 ```
-
----
 
 # 7. Where Bash Commands Are Stored
 
@@ -176,8 +165,6 @@ C:\Users\YourUser\.bashrc
 
 Every time Git Bash starts, this file is executed.
 
----
-
 # 8. Tips for Better Terminal Workflow
 
 * Use `alias` to shorten long commands
@@ -190,7 +177,5 @@ Example:
 ```bash
 alias run='gcc main.c -o main && ./main'
 ```
-
----
 
 
