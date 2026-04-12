@@ -193,13 +193,4 @@ alias run='gcc main.c -o main && ./main'
 
 ---
 
-# Conclusion
-
-Using Git Bash together with custom commands can significantly improve your development workflow.
-
-You can:
-
-* Launch programs quickly
-* Automate tasks
-* Work more efficiently in the terminal
 

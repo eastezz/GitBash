@@ -1,10 +1,10 @@
-# ⚙️ Create & Run a .NET Web API using Bash
+# Create & Run a .NET Web API using Bash
 
 This guide shows how to **create, run, and test a new Web API project** using the command line (bash) with **C# and .NET**.
 
 ---
 
-# 🚀 Prerequisites
+# Prerequisites
 
 Make sure you have installed:
 
@@ -13,13 +13,13 @@ Make sure you have installed:
 
 ---
 
-# 🏗️ 1. Create a New Web API Project
+# 1. Create a New Web API Project
 
 ```bash id="a1b2c3"
 dotnet new webapi -n MyWebApi
 ```
 
-👉 This creates a new project folder:
+ This creates a new project folder:
 
 ```id="d4e5f6"
 MyWebApi/
@@ -27,7 +27,7 @@ MyWebApi/
 
 ---
 
-# 📂 2. Navigate into the Project
+# 2. Navigate into the Project
 
 ```bash id="g7h8i9"
 cd MyWebApi
@@ -35,23 +35,23 @@ cd MyWebApi
 
 ---
 
-# 📦 3. Restore Dependencies
+# 3. Restore Dependencies
 
 ```bash id="j1k2l3"
 dotnet restore
 ```
 
-👉 Downloads all required packages
+ Downloads all required packages
 
 ---
 
-# ▶️ 4. Run the Application
+# 4. Run the Application
 
 ```bash id="m4n5o6"
 dotnet run
 ```
 
-👉 You should see:
+ You should see:
 
 ```id="p7q8r9"
 Now listening on: https://localhost:XXXX
@@ -59,7 +59,7 @@ Now listening on: https://localhost:XXXX
 
 ---
 
-# 🌐 5. Open Swagger UI
+# 5. Open Swagger UI
 
 Open your browser and go to:
 
@@ -67,11 +67,11 @@ Open your browser and go to:
 https://localhost:XXXX/swagger
 ```
 
-👉 Replace `XXXX` with your port
+ Replace `XXXX` with your port
 
 ---
 
-# 🔧 Optional: Run on a Specific Port
+# Optional: Run on a Specific Port
 
 ```bash id="v4w5x6"
 dotnet run --urls "http://localhost:5000"
@@ -85,7 +85,7 @@ http://localhost:5000/swagger
 
 ---
 
-# 📦 6. Add Packages (Optional)
+# 6. Add Packages (Optional)
 
 Example: Install Swagger manually
 
@@ -101,7 +101,7 @@ dotnet add package Microsoft.EntityFrameworkCore.InMemory
 
 ---
 
-# 🧪 7. Test the API
+# 7. Test the API
 
 Use:
 
@@ -117,7 +117,7 @@ curl http://localhost:5000/weatherforecast
 
 ---
 
-# 🧹 8. Useful Commands
+# 8. Useful Commands
 
 Build project:
 
@@ -139,7 +139,7 @@ dotnet list package
 
 ---
 
-# 🧠 How It Works
+# How It Works
 
 1. `dotnet new webapi` → creates a REST API project
 2. `dotnet run` → starts a local web server
