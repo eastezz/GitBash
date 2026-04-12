@@ -129,8 +129,6 @@ Usage:
 vs
 ```
 
----
-
 ### Open VS Code
 
 ```bash
