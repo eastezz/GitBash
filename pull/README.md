@@ -4,15 +4,12 @@
 
 `git pull` downloads changes from the remote repository and merges them into your local branch.
 
----
-
 ## Basic Usage
 
 ```bash
 git pull
 ```
 
----
 
 ## Pull from Specific Branch
 
@@ -20,13 +17,11 @@ git pull
 git pull origin main
 ```
 
----
 
 ## Why Pull First?
 
 Pull before starting work to avoid conflicts and ensure you have the latest code.
 
----
 
 ## Typical Workflow
 
