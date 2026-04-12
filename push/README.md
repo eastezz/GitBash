@@ -4,7 +4,6 @@
 
 `git push` uploads your local commits to a remote repository (e.g., GitHub).
 
----
 
 ## Basic Push
 
@@ -12,7 +11,6 @@
 git push
 ```
 
----
 
 ## First Push to a New Repository
 
@@ -22,7 +20,6 @@ git push -u origin main
 
 This sets the default upstream branch.
 
----
 
 ## Push a Specific Branch
 
@@ -30,7 +27,6 @@ This sets the default upstream branch.
 git push origin branch-name
 ```
 
----
 
 ## When to Use
 
@@ -40,7 +36,6 @@ Push when you want to:
 * back up changes online
 * collaborate with others
 
----
 
 ## Important Tip
 
