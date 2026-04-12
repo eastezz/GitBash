@@ -11,21 +11,17 @@ It tells you:
 * untracked files
 * current branch
 
----
-
 ## Basic Usage
 
 ```bash
 git status
 ```
 
----
 
 ## Why It Is Important
 
 Use it frequently to understand what Git is tracking.
 
----
 
 ## Example Output
 
@@ -38,7 +34,6 @@ Untracked files:
   newfile.txt
 ```
 
----
 
 ## Tip
 
