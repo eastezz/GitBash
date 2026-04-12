@@ -5,7 +5,6 @@
 
 Each command is explained in its own folder with examples and best practices.
 
----
 
 # Table of Contents
 
@@ -19,7 +18,6 @@ Each command is explained in its own folder with examples and best practices.
 * [Pull](pull/README.md)
 * [Log](log/README.md)
 
----
 
 ## Collaboration & Workflow
 
@@ -27,7 +25,6 @@ Each command is explained in its own folder with examples and best practices.
 * [Pull Requests Guide](pull_request/README.md)
 * [Run From Bash/Create new Shortcuts](RunFromBash_CreateShortcuts)
 * [Create & Run a .NET Web API using Bash](Create_Run_.NET_Web_API)
----
 
 # Typical Daily Workflow
 
@@ -38,6 +35,5 @@ git commit -m "Describe changes"
 git push
 ```
 
----
 
 
