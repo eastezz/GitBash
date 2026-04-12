@@ -9,7 +9,6 @@ Git tracks changes in two steps:
 1. Add files (staging)
 2. Commit changes
 
----
 
 ## Add One File
 
@@ -17,7 +16,6 @@ Git tracks changes in two steps:
 git add filename
 ```
 
----
 
 ## Add All Files
 
@@ -25,7 +23,6 @@ git add filename
 git add .
 ```
 
----
 
 ## Add Only Modified Files
 
@@ -33,7 +30,6 @@ git add .
 git add -u
 ```
 
----
 
 ## Why Staging Exists
 
@@ -43,7 +39,6 @@ Staging allows you to:
 * create clean commits
 * review changes before saving
 
----
 
 ## Example Workflow
 
