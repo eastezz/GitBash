@@ -4,15 +4,12 @@
 
 `git commit` saves staged changes to the local repository history.
 
----
 
 ## Basic Commit
 
 ```bash
 git commit -m "Your message"
 ```
-
----
 
 ## Writing Good Messages
 
@@ -28,7 +25,6 @@ Example:
 git commit -m "Add login feature"
 ```
 
----
 
 ## Commit All Tracked Changes
 
@@ -38,7 +34,6 @@ git commit -am "Update files"
 
 Note: This does NOT add new untracked files.
 
----
 
 ## Why Commits Matter
 
