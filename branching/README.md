@@ -6,7 +6,6 @@ A branch is an independent line of development.
 
 It allows you to work on new features without affecting the main project.
 
----
 
 ## Why Use Branches?
 
@@ -17,7 +16,6 @@ Branches allow safe development:
 * experiment freely
 * collaborate without conflicts
 
----
 
 ## View Existing Branches
 
@@ -25,15 +23,12 @@ Branches allow safe development:
 git branch
 ```
 
----
-
 ## Create a New Branch
 
 ```bash id="5dth5f"
 git branch feature-name
 ```
 
----
 
 ## Create and Switch to a Branch
 
@@ -43,7 +38,6 @@ git checkout -b feature-name
 
 This is the most common command.
 
----
 
 ## Switch Between Branches
 
@@ -51,7 +45,6 @@ This is the most common command.
 git checkout main
 ```
 
----
 
 ## Delete a Branch
 
@@ -59,7 +52,6 @@ git checkout main
 git branch -d feature-name
 ```
 
----
 
 ## Typical Feature Workflow
 
@@ -70,8 +62,6 @@ git add .
 git commit -m "Add new feature"
 git push origin new-feature
 ```
-
----
 
 ## Why Companies Use Branches
 
