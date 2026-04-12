@@ -2,7 +2,6 @@
 
 This guide shows how to **create, run, and test a new Web API project** using the command line (bash) with **C# and .NET**.
 
----
 
 # Prerequisites
 
@@ -11,7 +10,6 @@ Make sure you have installed:
 * .NET SDK (check with `dotnet --version`)
 * A terminal (Git Bash, WSL, or Linux/Mac terminal)
 
----
 
 # 1. Create a New Web API Project
 
@@ -25,7 +23,6 @@ dotnet new webapi -n MyWebApi
 MyWebApi/
 ```
 
----
 
 # 2. Navigate into the Project
 
@@ -33,7 +30,6 @@ MyWebApi/
 cd MyWebApi
 ```
 
----
 
 # 3. Restore Dependencies
 
@@ -43,7 +39,6 @@ dotnet restore
 
  Downloads all required packages
 
----
 
 # 4. Run the Application
 
@@ -57,7 +52,6 @@ dotnet run
 Now listening on: https://localhost:XXXX
 ```
 
----
 
 # 5. Open Swagger UI
 
@@ -69,7 +63,6 @@ https://localhost:XXXX/swagger
 
  Replace `XXXX` with your port
 
----
 
 # Optional: Run on a Specific Port
 
@@ -83,7 +76,6 @@ Then open:
 http://localhost:5000/swagger
 ```
 
----
 
 # 6. Add Packages (Optional)
 
@@ -99,7 +91,6 @@ Example: Install Entity Framework
 dotnet add package Microsoft.EntityFrameworkCore.InMemory
 ```
 
----
 
 # 7. Test the API
 
@@ -115,7 +106,6 @@ Example using curl:
 curl http://localhost:5000/weatherforecast
 ```
 
----
 
 # 8. Useful Commands
 
@@ -137,7 +127,6 @@ List installed packages:
 dotnet list package
 ```
 
----
 
 # How It Works
 
@@ -145,5 +134,3 @@ dotnet list package
 2. `dotnet run` → starts a local web server
 3. Browser/Client → sends HTTP requests
 4. API → processes and returns JSON responses
-
----
